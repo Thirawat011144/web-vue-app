@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h2>สวัสดี</h2>
     <h2>โปรแกรมแสดงรายการสินค้าที่ต้องการขาย</h2>
     <product-list :products="product" />
   </div>
