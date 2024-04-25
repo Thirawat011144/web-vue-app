@@ -1,7 +1,8 @@
 <template>
   <div>
+    <h2>สวัสดี</h2>
     <h2>โปรแกรมแสดงรายการสินค้าที่ต้องการขาย</h2>
-    <product-list :products="product"/>
+    <product-list :products="product" />
   </div>
 </template>
 
@@ -22,7 +23,7 @@ export default {
         { id: 4, name: "Headphones", price: 1000, quantity: 7 },
       ],
     };
-  }
+  },
 };
 </script>
 
